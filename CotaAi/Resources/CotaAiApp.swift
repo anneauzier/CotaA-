@@ -11,7 +11,7 @@ import SwiftUI
 struct CotaAiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CardEvent(status: .active)
         }
     }
 }
